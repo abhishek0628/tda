@@ -24,7 +24,7 @@ clone the project
 ```bash
 mkdir project && cd project
 git clone https://github.com/Abhishek0628/tda.git
-cd financial_event_extraction
+cd tda
 ```
 
 Install dependencies using pip:
