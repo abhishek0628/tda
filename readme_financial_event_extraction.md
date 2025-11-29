@@ -20,14 +20,14 @@ This project provides a Transformer-based system to extract and structure financ
 - Transformers
 - python-dateutil
 
-clone the project
+## Clone the project
 ```bash
 mkdir project && cd project
 git clone https://github.com/Abhishek0628/tda.git
 cd tda
 ```
 
-Install dependencies using pip:
+## Install dependencies using pip:
 
 ```bash
 python3 -m venv venv
@@ -36,7 +36,7 @@ pip install transformers datasets evaluate seqeval torch accelerate tokenizers p
 ```
 
 ---
-
+## Training
 ```bash
 python financial_event_infer.py --task toy
 python financial_event_infer.py --task ner --train --model_name_or_path bert-base-uncased --output_dir ./models/ner
